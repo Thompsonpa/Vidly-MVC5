@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/Vidly/v16/Server/sqlite3/db.lock
+/App_Data/Vidly.Models.DBContext.mdf
+/App_Data/Vidly.Models.DBContext_log.ldf
