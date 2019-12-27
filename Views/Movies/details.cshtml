@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+<br />
+<ul>
+    <li>Genre: <label class="label label-info">@Model.Genre.Name</label></li>
+    <li>Release Date: <label class="label label-info">@Model.ReleaseDate</label></li>
+    <li>Date Added: <label class="label label-info">@Model.DateAdded</label></li>
+    <li>Number in Stock: <label class="label label-info">@Model.NumberInStock</label></li>
+</ul>
+

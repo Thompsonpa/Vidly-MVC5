@@ -180,3 +180,15 @@ D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddedNameFieldToMembershipType.res
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.UpdateMembershipTypeDataNames.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddDateofBirthToCustomerTable.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.UpdateCustomerDataDateofBirth.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.UpdateMovieTable.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddNewTableforGenre.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddGenresToTable.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddMoviesToTable.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.updateMoviesTableColumns.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.updateMoviesTableData.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.updateMovieModel.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.updateMovieModelchange.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.dbUpdate.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.dbUpdateMovies.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.TableGenresupdate.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.TableUpdate.resources

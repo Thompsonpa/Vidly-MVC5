@@ -1,5 +1,4 @@
-﻿@model Vidly.ViewModels.MovieListViewModel
-@{
+﻿@{
     ViewBag.Title = "view";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -9,9 +8,9 @@
     on Multiple lines!
 *@
 
-<h2>Movie List (@Model.Movies.Count Movies)</h2>
-<br /><br />
-@if (Model.Movies.Count <= 0)
+<h2>Movie List (@Model.Count Movies)</h2>
+<br />
+@if (Model.Count <= 0)
 {
     <div class="alert alert-danger" role="alert"><strong>Uh-oh! </strong>No Movies have been found in the database</div>
 }
@@ -21,12 +20,14 @@ else
         <tr>
             <th>#</th>
             <th>Movie Name</th>
+            <th>Genre</th>
         </tr>
-        @foreach (var item in Model.Movies)
+        @foreach (var Movie in Model)
         {
             <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
+                <td>@Movie.Id</td>
+                <td>@Html.ActionLink((string)Movie.Name, "details", "Movies", new { id = Movie.Id }, null)</td>
+                <td>@Movie.Genre.Name</td>
             </tr>
 
         }

@@ -202,9 +202,58 @@
     <Compile Include="Migrations\201912271710145_UpdateCustomerDataDateofBirth.designer.cs">
       <DependentUpon>201912271710145_UpdateCustomerDataDateofBirth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912271818425_UpdateMovieTable.cs" />
+    <Compile Include="Migrations\201912271818425_UpdateMovieTable.designer.cs">
+      <DependentUpon>201912271818425_UpdateMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271823264_AddNewTableforGenre.cs" />
+    <Compile Include="Migrations\201912271823264_AddNewTableforGenre.designer.cs">
+      <DependentUpon>201912271823264_AddNewTableforGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271825181_AddGenresToTable.cs" />
+    <Compile Include="Migrations\201912271825181_AddGenresToTable.designer.cs">
+      <DependentUpon>201912271825181_AddGenresToTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271853302_AddMoviesToTable.cs" />
+    <Compile Include="Migrations\201912271853302_AddMoviesToTable.designer.cs">
+      <DependentUpon>201912271853302_AddMoviesToTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271906448_updateMoviesTableColumns.cs" />
+    <Compile Include="Migrations\201912271906448_updateMoviesTableColumns.designer.cs">
+      <DependentUpon>201912271906448_updateMoviesTableColumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271911209_updateMoviesTableData.cs" />
+    <Compile Include="Migrations\201912271911209_updateMoviesTableData.designer.cs">
+      <DependentUpon>201912271911209_updateMoviesTableData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271913409_updateMovieModel.cs" />
+    <Compile Include="Migrations\201912271913409_updateMovieModel.designer.cs">
+      <DependentUpon>201912271913409_updateMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271915250_updateMovieModelchange.cs" />
+    <Compile Include="Migrations\201912271915250_updateMovieModelchange.designer.cs">
+      <DependentUpon>201912271915250_updateMovieModelchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271920598_dbUpdate.cs" />
+    <Compile Include="Migrations\201912271920598_dbUpdate.designer.cs">
+      <DependentUpon>201912271920598_dbUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271931158_dbUpdateMovies.cs" />
+    <Compile Include="Migrations\201912271931158_dbUpdateMovies.designer.cs">
+      <DependentUpon>201912271931158_dbUpdateMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271936167_TableGenresupdate.cs" />
+    <Compile Include="Migrations\201912271936167_TableGenresupdate.designer.cs">
+      <DependentUpon>201912271936167_TableGenresupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271938566_TableUpdate.cs" />
+    <Compile Include="Migrations\201912271938566_TableUpdate.designer.cs">
+      <DependentUpon>201912271938566_TableUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customers.cs" />
     <Compile Include="Models\DBContext.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -673,6 +722,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\view.cshtml" />
     <Content Include="Views\Customers\details.cshtml" />
+    <Content Include="Views\Movies\details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -709,6 +759,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912271710145_UpdateCustomerDataDateofBirth.resx">
       <DependentUpon>201912271710145_UpdateCustomerDataDateofBirth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271818425_UpdateMovieTable.resx">
+      <DependentUpon>201912271818425_UpdateMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271823264_AddNewTableforGenre.resx">
+      <DependentUpon>201912271823264_AddNewTableforGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271825181_AddGenresToTable.resx">
+      <DependentUpon>201912271825181_AddGenresToTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271853302_AddMoviesToTable.resx">
+      <DependentUpon>201912271853302_AddMoviesToTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271906448_updateMoviesTableColumns.resx">
+      <DependentUpon>201912271906448_updateMoviesTableColumns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271911209_updateMoviesTableData.resx">
+      <DependentUpon>201912271911209_updateMoviesTableData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271913409_updateMovieModel.resx">
+      <DependentUpon>201912271913409_updateMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271915250_updateMovieModelchange.resx">
+      <DependentUpon>201912271915250_updateMovieModelchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271920598_dbUpdate.resx">
+      <DependentUpon>201912271920598_dbUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271931158_dbUpdateMovies.resx">
+      <DependentUpon>201912271931158_dbUpdateMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271936167_TableGenresupdate.resx">
+      <DependentUpon>201912271936167_TableGenresupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271938566_TableUpdate.resx">
+      <DependentUpon>201912271938566_TableUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

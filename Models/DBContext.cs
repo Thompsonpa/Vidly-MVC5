@@ -14,5 +14,7 @@ namespace Vidly.Models
         }
         public DbSet<Customers> Customers { get; set; } // My domain models
         public DbSet<Movies> Movies { get; set; }// My domain models
+
+        public DbSet<Genre> Genres { get; set; } // my domain models
     }
 }
