@@ -178,3 +178,5 @@ D:\Apps\Vidly-MVC5\obj\Debug\Vidly.csproj.GenerateResource.cache
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.PopulateMembershiptypes.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddedNameFieldToMembershipType.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.UpdateMembershipTypeDataNames.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.AddDateofBirthToCustomerTable.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.UpdateCustomerDataDateofBirth.resources

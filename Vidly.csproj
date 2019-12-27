@@ -194,6 +194,14 @@
     <Compile Include="Migrations\201912271650449_UpdateMembershipTypeDataNames.designer.cs">
       <DependentUpon>201912271650449_UpdateMembershipTypeDataNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912271708565_AddDateofBirthToCustomerTable.cs" />
+    <Compile Include="Migrations\201912271708565_AddDateofBirthToCustomerTable.designer.cs">
+      <DependentUpon>201912271708565_AddDateofBirthToCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912271710145_UpdateCustomerDataDateofBirth.cs" />
+    <Compile Include="Migrations\201912271710145_UpdateCustomerDataDateofBirth.designer.cs">
+      <DependentUpon>201912271710145_UpdateCustomerDataDateofBirth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customers.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -695,6 +703,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912271650449_UpdateMembershipTypeDataNames.resx">
       <DependentUpon>201912271650449_UpdateMembershipTypeDataNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271708565_AddDateofBirthToCustomerTable.resx">
+      <DependentUpon>201912271708565_AddDateofBirthToCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912271710145_UpdateCustomerDataDateofBirth.resx">
+      <DependentUpon>201912271710145_UpdateCustomerDataDateofBirth.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
