@@ -28,7 +28,6 @@ namespace Vidly.Controllers
         public ViewResult view()
         {
             var Movies = _context.Movies.Include(c => c.Genre).ToList();
-
             return View(Movies);
         }
 
@@ -36,15 +35,27 @@ namespace Vidly.Controllers
         //GET: Edit Movies/details/{id}
         public ActionResult details(int id)
         {
-            var customer = _context.Movies.Include(c => c.Genre).SingleOrDefault(c => c.Id == id);
+            var data = _context.Movies.Include(c => c.Genre).SingleOrDefault(c => c.Id == id);
 
-            if (customer == null)
+            MovieViewModel.Movie Movie = new MovieViewModel.Movie
+            {
+                Id = data.Id,
+                Name = data.Name,
+                Genre = data.Genre,
+                ReleaseDate = data.ReleaseDate,
+                DateAdded = data.DateAdded,
+                NumberInStock = data.NumberInStock
+
+            };
+
+
+            if (Movie == null)
             {
                 return HttpNotFound();
             }
             else
             {
-                return View(customer);
+                return View(Movie);
             }
         }
 
@@ -70,6 +81,6 @@ namespace Vidly.Controllers
         {
             return Content(year + "/" + month);
         }
-        
+
     }
 }
