@@ -250,6 +250,10 @@
     <Compile Include="Migrations\201912271938566_TableUpdate.designer.cs">
       <DependentUpon>201912271938566_TableUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912272041484_Section3Changes.cs" />
+    <Compile Include="Migrations\201912272041484_Section3Changes.designer.cs">
+      <DependentUpon>201912272041484_Section3Changes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customers.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -795,6 +799,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912271938566_TableUpdate.resx">
       <DependentUpon>201912271938566_TableUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912272041484_Section3Changes.resx">
+      <DependentUpon>201912272041484_Section3Changes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

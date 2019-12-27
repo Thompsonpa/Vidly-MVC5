@@ -192,3 +192,4 @@ D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.dbUpdate.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.dbUpdateMovies.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.TableGenresupdate.resources
 D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.TableUpdate.resources
+D:\Apps\Vidly-MVC5\obj\Debug\Vidly.Migrations.Section3Changes.resources
